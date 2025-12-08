@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b5e01a01b72274f248183df22069b040
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 328524
+  packageName: Dog - Top Down Pixel Art Animal
+  packageVersion: 1.0
+  assetPath: Assets/sanctum_pixel/dog_topdown_package/dog_topdown/Sprite/dog_color_1/attack.anim
+  uploadId: 778537

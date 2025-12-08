@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7932724590cfa47f0888179419d3d8f0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 328524
+  packageName: Dog - Top Down Pixel Art Animal
+  packageVersion: 1.0
+  assetPath: Assets/sanctum_pixel/dog_topdown_package/dog_topdown/Sprite/dog_1/run_1.controller
+  uploadId: 778537
