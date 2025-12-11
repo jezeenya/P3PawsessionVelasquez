@@ -6,7 +6,8 @@ public class NeedsController : MonoBehaviour
     public int food, happiness, energy;
     public int foodTickRate, happinessTickRate, energyTickRate;
     public DateTime lastTimeFed, lastTimeHappy, lastTimeGainedEnergy;
-    
+    public PetManager petManager;
+
 
 
 
@@ -73,7 +74,8 @@ public class NeedsController : MonoBehaviour
         }
         if (food < 0)
         {
-            PetManager.Die();
+            petManager.Die();
+            
         }
         else if (food > 100) food = 100;
     }
@@ -88,7 +90,7 @@ public class NeedsController : MonoBehaviour
         }
         if (happiness < 0)
         {
-            PetManager.Die();
+            petManager.Die();
         }
         else if (happiness > 100) happiness = 100;
     }
@@ -103,7 +105,7 @@ public class NeedsController : MonoBehaviour
         }
         if (energy < 0)
         {
-            PetManager.Die();
+            petManager.Die();
         }
         else if (energy > 100) energy = 100;
     }

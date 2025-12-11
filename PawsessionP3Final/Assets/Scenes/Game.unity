@@ -641,6 +641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7c96a0a8423bc64ead6f80a4ea85d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1550907982}
 --- !u!114 &549343445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2211,6 +2212,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2427332755248926195, guid: 3a0ca76fd18c64249826a9e7b62aaef1, type: 3}
+      propertyPath: petManager
+      value: 
+      objectReference: {fileID: 549343444}
     - target: {fileID: 6962111165746530957, guid: 3a0ca76fd18c64249826a9e7b62aaef1, type: 3}
       propertyPath: m_Name
       value: Pet

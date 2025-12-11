@@ -1,21 +1,33 @@
+using System;
 using UnityEngine;
 
 public class PetManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public static PetManager Instance;
+    public Animator animator;
 
-    // Update is called once per frame
+    void Awake()
+    {
+        Instance = this;
+    }
+    
+    
+    
+
     void Update()
     {
-        
+
     }
 
-    public static void Die()
+    public Animator GetAnimator()
+    {
+        return animator;
+    }
+
+    public void Die()
     {
         Debug.Log("Tama has died :(");
+        animator.SetBool("IsDead", true);
     }
+
 }
