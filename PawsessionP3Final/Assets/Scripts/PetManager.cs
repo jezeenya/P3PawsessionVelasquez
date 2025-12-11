@@ -16,6 +16,6 @@ public class PetManager : MonoBehaviour
 
     public static void Die()
     {
-
+        Debug.Log("Tama has died :(");
     }
 }
