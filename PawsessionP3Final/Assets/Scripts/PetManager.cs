@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PetManager : MonoBehaviour
 {
@@ -27,7 +29,10 @@ public class PetManager : MonoBehaviour
     public void Die()
     {
         Debug.Log("Tama has died :(");
-        animator.SetBool("IsDead", true);
+        animator.SetTrigger("IsDead");
+        
+
     }
 
+   
 }
